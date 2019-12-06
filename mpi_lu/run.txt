@@ -1,0 +1,3 @@
+mpicc -g -lm matrix.c main.c -O3 -o mpilu
+
+mpirun -np 4 ./mpilu [params]
